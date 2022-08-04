@@ -35,3 +35,15 @@
 /* git add and commit same time*/
 
 >> git commit -am "git commands txt file modified"
+
+/* git stash and git stash pop 
+1. git stash is used whatever the changes are added before commit and can be moved to back stage so that worktree looks clean without any chnages to commit
+2. whenever we want back those changes we use git stash pop
+3. whenever we feel back stage changes are not important to add then we use git stash clear
+*/
+
+>> git stash
+
+>> git stash pop
+
+>> git stash clear
