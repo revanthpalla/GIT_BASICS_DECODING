@@ -24,3 +24,10 @@
 3. Git will never change them unless you explicitly ask it to */
 
 >> git commit -m "git commands txt file"
+
+/* undo staged files before commit can be done by the following command*/
+
+>> git restore --staged <name_of_file>
+
+/* history of commits can be seen */
+>> git log
