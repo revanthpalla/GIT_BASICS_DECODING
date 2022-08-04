@@ -31,3 +31,7 @@
 
 /* history of commits can be seen */
 >> git log
+
+/* git add and commit same time*/
+
+>> git commit -am "git commands txt file modified"
