@@ -47,3 +47,9 @@
 >> git stash pop
 
 >> git stash clear
+
+/* when we need to add remote url repository, origin says name of url to be added */
+>> git remote add origin https://github.com/revanthpalla/GIT_BASICS_DECODING.git
+
+/* still changes are not reflected in remote repo in git*/
+>> git push origin <branch_name> --> git push origin master
