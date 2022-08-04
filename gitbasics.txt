@@ -1,0 +1,26 @@
+/* 1. TO create an empty git repository
+2. The git init command creates a new Git repository.
+3. You only use git init if you already have code and you want to put it in a new Git repository. */
+
+>> git init
+
+/* command to say what changes are made to a project which is being tracked by git*/
+
+>> git status
+
+/* 1. git add command adds a change in the working directory to the staging area.
+2. It tells Git that you want to include updates to a particular file in the next commit.*/
+
+>> git add . (  Stage all (new, modified, deleted) files in current folder )
+
+>> git add -A ( Stage all (new, modified, deleted) files )
+
+>> git add -u ( Stage modified and deleted files only )
+
+>> git add --ignore-removal . ( Stage new/modified files in the current directory and ignores deleted files )
+
+/* 1. The git commit command captures a snapshot of the project's currently staged changes
+2. Committed snapshots can be thought of as “safe” versions of a project
+3. Git will never change them unless you explicitly ask it to */
+
+>> git commit -m "git commands txt file"
